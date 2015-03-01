@@ -1,0 +1,35 @@
+
+ECERE Workspace File
+
+Version 0.02
+
+Workspace
+
+   Active Compiler = Default
+
+   Active Bit Depth = 0
+
+   Projects
+
+    - ecduk_test.epj
+         Active Configuration = Debug
+         Modified Linker Config = Release
+
+   Execution Data
+
+   Debugger Data
+
+   Watches
+
+    ~ ctx
+    ~ val.save_str
+    ~ val
+
+   Opened Files
+
+    = C:98:1:0:1440:Stack.ec
+    = O:1:1:0:0:duktape.c
+    = O:30:11:0:336:obj/debug.win32/Context.c
+    = C:1:1:0:0:duktape.h
+    = O:2:16:0:0:form1.ec
+    = O:79:1:0:1024:Duktape.ec

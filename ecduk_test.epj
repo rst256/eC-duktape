@@ -1,0 +1,43 @@
+{
+   "Version" : 0.2,
+   "ModuleName" : "ecduk_test",
+   "Options" : {
+      "Warnings" : "All",
+      "TargetType" : "Executable",
+      "TargetFileName" : "ecduk_test",
+      "Libraries" : [
+         "ecere"
+      ]
+   },
+   "Configurations" : [
+      {
+         "Name" : "Debug",
+         "Options" : {
+            "Debug" : true,
+            "Optimization" : "None",
+            "PreprocessorDefinitions" : [
+               "_DEBUG"
+            ],
+            "FastMath" : false
+         }
+      },
+      {
+         "Name" : "Release",
+         "Options" : {
+            "Debug" : false,
+            "Optimization" : "Speed",
+            "FastMath" : true
+         }
+      }
+   ],
+   "Files" : [
+      "form1.ec",
+      "duktape.c",
+      "Duktape.ec",
+      "duktape.h"
+   ],
+   "ResourcesPath" : "",
+   "Resources" : [
+
+   ]
+}
